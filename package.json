@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "express": "^4.18.1",
+    "json-server": "^0.17.0"
+  },
+  "name": "angulartutorials",
+  "description": "1. Tao project Angular\r ```java\r ng new lab1\r ```\r 2. Build and thực thi project Angular\r ```java\r ng serve\r ```\r 3. Cấu truc file và folder\r - node_modules: folder chứa các modules của Angular\r - src : folder chứa source code project\r - .browserslistrc: các version browser tương thích với project\r - .editorconfig : cấu hình VS Code.\r - .gitignore : khai báo các file sẽ bỏ qua khi đưa lên github\r - angular.json : nơi cấu hình Angular CLI\r - karma.config.js : cấu hình chạy các testing (kiểm thử)\r - package.json: chứa thông tin các thư viện cần trong project\r - src/app : chưa code chính của project\r - src/app/app.component.html: là file view chưa code html và dữ liệu show cho người dùng\r - src/app/app.component.ts : là file component chính, chứa các hàm và biến để thao tác\r - src/app/app.component.css : chứa định dạng css cho app.component.html\r - src/app/app.modules.ts: nơi nhúng các module dùng trong project\r - src/app/app-routing.module.ts: nơi định nghĩa các route trong project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
